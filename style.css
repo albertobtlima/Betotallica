@@ -117,11 +117,10 @@ button > a:hover{
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
 }
-div.video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+iframe {
+    width: 400px;
+    height: 300px;
+    position: relative;
 }
 footer {
     text-align: center;
