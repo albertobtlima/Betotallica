@@ -42,7 +42,6 @@ main > h2 {
 }
 .container {
     display: flex;
-    -webkit-align-items: center;
 }
 div {
     margin-bottom: 100px;
