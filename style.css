@@ -20,11 +20,11 @@ header {
 h1 {
     color: #151414;
     font-family: 'Doctor', 'Times New Roman', Times, serif;
-    font-size: 50PX;
+    font-size: 60PX;
 }
 nav {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 nav > a {
     color: black;
@@ -45,16 +45,23 @@ main {
     margin: auto;
 }
 main > h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: normal;
     text-align: center;
-    font-size: 3.5em;
-    margin-bottom: 0;
-    text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.4);
+    font-size: 40PX;
+    margin-bottom: 10PX;
+}
+main > p {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 0 40px 0;
 }
 .container {
     display: flex;
 }
 div {
-    margin-bottom: 20px;
+    margin: 20px 0 20px 0;
 }
 .container {
     width: auto;
