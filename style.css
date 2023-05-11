@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'Doctor';
-    src: url('fontes/Doctor\ Glitch.otf') format('opentype'), url('fontes/Doctor\ Glitch.ttf') format('truetype');
+    src: url('fontes/Doctor Glitch.otf') format('opentype'), url('fontes/Doctor Glitch.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -70,6 +70,11 @@ main a:hover {
 }
 div {
     margin: 20px 0 20px 0;
+}
+div > img {
+    max-width: 250px;
+    margin-left: 6px;
+    margin-right: 6px;
 }
 .container {
     width: auto;
@@ -140,4 +145,8 @@ iframe {
 footer {
     text-align: center;
     padding: 30px;
+}
+footer a > img {
+    max-width: 40px;
+    margin: 0 10px 0 10px;
 }
