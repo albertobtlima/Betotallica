@@ -13,6 +13,8 @@
 body {
     background-color: rgb(80, 80, 80);
     background-image: url("imagens/background.jpeg");
+    background-position: center center;
+    background-size: cover;
 }    
 header {
     text-align: center;
