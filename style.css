@@ -20,7 +20,7 @@ header {
     text-align: center;
 }
 h1 {
-    color: #151414;
+    color: #0c0c0c;
     font-family: 'Doctor', 'Times New Roman', Times, serif;
     font-size: 60PX;
 }
@@ -144,7 +144,15 @@ iframe {
     padding: 10px 0 10px 70px;
     border: hidden;
 }
+iframe.home {
+    width: 560px;
+    height: 315px;
+    position: relative;
+    padding: 10px 0 10px 125px;
+    border: hidden;
+}
 footer {
+    color: black;
     text-align: center;
     padding: 30px;
 }
